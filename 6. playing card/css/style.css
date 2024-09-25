@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    color: red;
+}
+
+.card:not(aside) {
+    font-size: 10rem;
+}
+
+aside span {
+    color: darkslategray;
+    font-size: 1.75rem;
+}
+
+/* aside {
+    font-size: larger;
+} */
+
+/* p {
+    flex: 12;
+} */
+
+.top, .bottom {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 3rem;
+    height: 3rem;
+    /* flex: 4; */
+    font-size: 3rem;
+}
+
+.top {
+    align-self: flex-start;
+}
+
+.bottom {
+    align-self: flex-end;
+    rotate: 180deg;
+    /* transform: scale(-1, -1); */
+}

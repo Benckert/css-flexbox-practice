@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    gap: 2rem;
+}
+
+img {
+    margin-right: auto;
+    width: 6rem;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    margin-left: auto;
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: solid lightgray;
+    text-align: center;
+}
